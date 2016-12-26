@@ -725,7 +725,7 @@
         </option>
         <option>
           <name>IlinkIcfFile</name>
-          <state></state>
+          <state>$TOOLKIT_DIR$\config\linker\TexasInstruments\LM4F120H5QR.icf</state>
         </option>
         <option>
           <name>IlinkIcfFileSlave</name>
@@ -785,7 +785,7 @@
         </option>
         <option>
           <name>IlinkProgramEntryLabel</name>
-          <state></state>
+          <state>__iar_program_start</state>
         </option>
         <option>
           <name>DoFill</name>

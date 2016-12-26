@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>980228370</fileChecksum>
+  <fileChecksum>3619151685</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
@@ -60,6 +60,10 @@
         </tool>
       </outputs>
     </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\main.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
   </configuration>
   <configuration>
     <name>Release</name>
