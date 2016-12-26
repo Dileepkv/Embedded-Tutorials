@@ -1,5 +1,5 @@
 int main(){
-    int counter = 0 ;
+    unsigned int counter = 0 ;
     ++counter;
     ++counter;
     ++counter;
