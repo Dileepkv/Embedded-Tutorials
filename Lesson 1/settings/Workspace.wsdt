@@ -44,7 +44,7 @@
             <Session/>
           </Tab>
         </Tabs>
-        <SelectedTab>0</SelectedTab>
+        <SelectedTab>1</SelectedTab>
       </Wnd0>
       <Wnd1>
         <Tabs>
@@ -77,8 +77,8 @@
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
           <YPos2>0</YPos2>
-          <SelStart2>26</SelStart2>
-          <SelEnd2>26</SelEnd2>
+          <SelStart2>130</SelStart2>
+          <SelEnd2>130</SelEnd2>
         </Tab>
         <ActiveTab>1</ActiveTab>
       </Pane>
@@ -100,9 +100,6 @@
             </Toolbar-00C88938>
           </Sizes>
         </Row0>
-        <Row1>
-          <Sizes/>
-        </Row1>
       </Top>
       <Left>
         <Row0>
