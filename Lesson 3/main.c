@@ -1,7 +1,9 @@
 int counter = 0;
 int main(){
-    while(counter < 21){
-      ++counter;
+  int *p_int;
+  p_int = &counter;
+    while(*p_int < 21){
+      ++(*p_int);
     }
     return 0;
 }
