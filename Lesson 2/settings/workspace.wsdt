@@ -73,8 +73,8 @@
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
           <YPos2>0</YPos2>
-          <SelStart2>11</SelStart2>
-          <SelEnd2>11</SelEnd2>
+          <SelStart2>67</SelStart2>
+          <SelEnd2>67</SelEnd2>
         </Tab>
         <ActiveTab>0</ActiveTab>
       </Pane>
@@ -96,6 +96,9 @@
             </Toolbar-00C88938>
           </Sizes>
         </Row0>
+        <Row1>
+          <Sizes/>
+        </Row1>
       </Top>
       <Left>
         <Row0>
