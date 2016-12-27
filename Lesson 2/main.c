@@ -1,28 +1,7 @@
 int main(){
     int counter = 0;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-    ++counter;
-  
+    while(counter < 21){
+      ++counter;
+    }
     return 0;
 }
