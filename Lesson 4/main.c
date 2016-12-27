@@ -1,12 +1,5 @@
-int counter = 0;
 int main(){
-  int *p_int;
-  p_int = &counter;
-    while(*p_int < 21){
-      ++(*p_int);
-    }
+    *((unsigned int *)0x400FE608)= 0x20u ; /*turn on bit 5 of 0x400FE608 register to wake up GPIO LED memory*/ 
     
-    p_int = (int *)0x20000002u; 
-    *p_int = 0xDEADBEEF;
     return 0;
 }
