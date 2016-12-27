@@ -12,7 +12,7 @@
 
 "--device=LM4F120H5QR" 
 
-"--multicore_nr_of_cores=1" 
+"--drv_interface_speed=500" 
 
 
 
