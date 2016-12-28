@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=-735940149
+Checksum=-456835025
 [CodeCoverage]
 Enabled=_ 0
 [Stack]
@@ -63,6 +63,10 @@ LMIFTDIserialNo=0E21EB6A
 LMIFTDIfoundProbes=
 LMI_ResetMode=0x00000001
 LMI_LeaveTargetRunning=0x00000000
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Count=0
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -70,10 +74,6 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
-[Disassemble mode]
-mode=0
-[Breakpoints]
-Count=0
 [Aliases]
 Count=0
 SuppressDialog=0
