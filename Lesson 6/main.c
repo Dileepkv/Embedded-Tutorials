@@ -14,8 +14,15 @@ int main(){
     c = a ^ b; //exclusive or
     c = a & b; //and
     c = ~b;   //NOT or compliment
-    c = b >> 1; //right-shift
+    c = b >> 1; //right-shift 
     c= b << 3; //left-shift
+    
+    int x =1024;
+    int y =-1024;
+    int z;
+    
+    z= x >> 3;
+    z= y >> 3;
     
     
       
