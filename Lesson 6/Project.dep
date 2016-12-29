@@ -6,26 +6,26 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
       <file>$PROJ_DIR$\Debug\Obj\Project.pbd</file>
       <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\lm4f120h5qr.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
       <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-      <file>$PROJ_DIR$\Debug\Exe\Project.out</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
       <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\List\Project.map</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\Project.out</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\LM4F120H5QR.icf</file>
-      <file>$PROJ_DIR$\lm4f120h5qr.h</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 6 10</file>
+          <file> 9 6</file>
         </tool>
       </outputs>
     </file>
@@ -33,26 +33,26 @@
       <name>$PROJ_DIR$\main.c</name>
       <outputs>
         <tool>
-          <name>ICCARM</name>
-          <file> 7</file>
+          <name>BICOMP</name>
+          <file> 11</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 3</file>
+          <name>ICCARM</name>
+          <file> 8</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 9</file>
+          <file> 5</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICCARM</name>
-          <file> 12</file>
+          <name>BICOMP</name>
+          <file> 2</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 12</file>
+          <name>ICCARM</name>
+          <file> 2</file>
         </tool>
       </inputs>
     </file>
@@ -61,13 +61,13 @@
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 10</file>
+          <file> 6</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 11 7 5 8 4 0</file>
+          <file> 12 8 4 7 10 3</file>
         </tool>
       </inputs>
     </file>
