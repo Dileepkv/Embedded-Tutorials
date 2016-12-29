@@ -11,8 +11,8 @@ int main(){
     unsigned int c;
     
     c = a | b; //or
-    c = a & b; //and
     c = a ^ b; //exclusive or
+    c = a & b; //and
     c = ~b;   //NOT or compliment
     c = b >> 1; //right-shift
     c= b << 3; //left-shift
