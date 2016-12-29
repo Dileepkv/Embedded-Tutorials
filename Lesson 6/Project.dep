@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>728969631</fileChecksum>
+  <fileChecksum>2925661085</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
@@ -71,6 +71,10 @@
         </tool>
       </inputs>
     </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
   </configuration>
   <configuration>
     <name>Release</name>
