@@ -82,7 +82,21 @@
           <name>BICOMP</name>
           <file> 16</file>
         </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+      </inputs>
     </file>
   </configuration>
   <configuration>
