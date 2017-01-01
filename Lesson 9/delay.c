@@ -1,4 +1,4 @@
-void delay(int pause_cycles);
+#include "delay.h"
 
 void delay(int pause_cycles) {
    int volatile counter = 0; 
