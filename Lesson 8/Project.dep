@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>728969631</fileChecksum>
+  <fileChecksum>3021171701</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
@@ -32,6 +32,10 @@
     <file>
       <name>$PROJ_DIR$\main.c</name>
       <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
         <tool>
           <name>BICOMP</name>
           <file> 5</file>
