@@ -4,6 +4,13 @@
 #define LED_BLUE (1u << 2) //0x04u
 #define LED_GREEN (1u << 3) //0x08u
 
+void delay(void) {
+   int volatile counter = 0; 
+        while(counter < 500000){
+          ++counter;
+        }
+}
+
 int main(){
     SYSCTL_RCGCGPIO_R |= (1u << 5) ; //turn on bit 5 of 0x400FE608 register to wake up GPIO LED clock access 
     SYSCTL_GPIOHBCTL_R |= (1u << 5) ; //convert processing mode to modern version AHB
@@ -13,39 +20,22 @@ int main(){
     GPIO_PORTF_AHB_DATA_BITS_R[LED_RED] = LED_RED ;//turn red on to start
     while(1){        
         GPIO_PORTF_AHB_DATA_BITS_R[LED_GREEN] = LED_GREEN ; //move to yellow    
-        int volatile counter = 0; 
-        while(counter < 500000){
-          ++counter;
-        }
+        delay();
         
-        GPIO_PORTF_AHB_DATA_BITS_R[LED_RED] =  //move green by turning red off
-        counter = 0;
-        while(counter < 500000){
-          ++counter;
-        }
+        GPIO_PORTF_AHB_DATA_BITS_R[LED_RED] = 0; //move green by turning red off
+        delay();
         
         GPIO_PORTF_AHB_DATA_BITS_R[LED_BLUE] = LED_BLUE ; //make cyan by turning blue on
-        counter = 0;
-        while(counter < 500000){
-          ++counter;
-        }
+        delay();
         
         GPIO_PORTF_AHB_DATA_BITS_R[LED_GREEN] = 0 ; //move to blue by turning green off    
-          while(counter < 500000){
-          ++counter;
-        }
+        delay();
         
         GPIO_PORTF_AHB_DATA_BITS_R[LED_RED] = LED_RED ; //move to purple by turning red on
-        counter = 0;
-        while(counter < 500000){
-          ++counter;
-        }
+        delay();
         
         GPIO_PORTF_AHB_DATA_BITS_R[LED_BLUE] = 0 ; //turn blue off leaving us at initial red
-        counter = 0;
-        while(counter < 500000){
-          ++counter;
-        }
+        delay();
         
     }
     return 0;
