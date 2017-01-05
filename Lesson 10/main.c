@@ -4,6 +4,8 @@
 #define LED_RED (1u << 1) //this defines the bit value associated with red for the LED data register 0x02u
 #define LED_BLUE (1u << 2) //0x04u
 #define LED_GREEN (1u << 3) //0x08u
+#define WaitTime 500000u //define the time to wait between commands 
+//do this here so the variable name does not need to be stored in memory while the code runs
 
 unsigned fact(unsigned n) ;
 
@@ -21,7 +23,6 @@ int main(){
     GPIO_PORTF_AHB_DEN_R |= (LED_RED | LED_BLUE | LED_GREEN) ; //turn on bits 1-3 of 0x4002551c to set pins as data output 
 
     GPIO_PORTF_AHB_DATA_BITS_R[LED_RED] = LED_RED ;//turn red on to start
-    int WaitTime = 500000;
     while(1){        
         GPIO_PORTF_AHB_DATA_BITS_R[LED_GREEN] = LED_GREEN ; //move to yellow    
         delay(WaitTime);
@@ -49,9 +50,12 @@ unsigned fact(unsigned n){
   // 0! = 1
   // n! = n*(n-1)! for all n>0
   
+  unsigned foo[10]; //this variable it going to overload the stack to learn about it
+  foo[n]=n;
+  
   if(n==0u){
       return 1u;
   }else{
-      return n*fact(n-1);
+      return (foo[n])*fact(n-1);
   }
 }
