@@ -20,9 +20,9 @@
       <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
       <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\LM4F120H5QR.icf</file>
       <file>$PROJ_DIR$\delay.h</file>
       <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+      <file>$PROJ_DIR$\Project.icf</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
@@ -42,17 +42,17 @@
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 16</file>
+          <file> 15</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 15</file>
+          <file> 14</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 15</file>
+          <file> 14</file>
         </tool>
       </inputs>
     </file>
@@ -75,11 +75,11 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 15 0</file>
+          <file> 14 0</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 0 15</file>
+          <file> 0 14</file>
         </tool>
       </inputs>
     </file>
@@ -94,14 +94,10 @@
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 14 16 9 12 11 4 5</file>
+          <file> 16 15 9 12 11 4 5</file>
         </tool>
       </inputs>
     </file>
-    <forcedrebuild>
-      <name>[MULTI_TOOL]</name>
-      <tool>ILINK</tool>
-    </forcedrebuild>
   </configuration>
   <configuration>
     <name>Release</name>

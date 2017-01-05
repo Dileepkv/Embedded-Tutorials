@@ -13,7 +13,7 @@ int main(){
     unsigned volatile x;
     x= fact(0);
     x= 2u + 3u*fact(1u);
-    (void)fact(5u);
+    (void)fact(7u);
   
   
   
@@ -49,10 +49,13 @@ int main(){
 unsigned fact(unsigned n){
   // 0! = 1
   // n! = n*(n-1)! for all n>0
-
+  
+  unsigned foo[6]; //this variable it going to overload the stack to learn about it
+  foo[n]=n;
+  
   if(n==0u){
       return 1u;
   }else{
-      return n*fact(n-1);
+      return (foo[n])*fact(n-1);
   }
 }
