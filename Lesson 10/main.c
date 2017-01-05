@@ -7,7 +7,19 @@
 #define WaitTime 500000u //define the time to wait between commands 
 //do this here so the variable name does not need to be stored in memory while the code runs
 
+void swap(int *x, int *y);//the * makes these pointers so they can swap
+void swap(int *x, int *y){//without the * only the passes variables change and the memory address stay fixed.
+     int tmp = *x;
+     *x = *y;
+     *y = tmp; //using pointers is useful since the program dosen't have to send a return value
+} 
+
+
 int main(){
+  int x = 1;
+  int y = 2;
+  swap(&x, &y);//the & symbol sends the memory register to the function instead of copying the value in the register.
+  
 
     SYSCTL_RCGCGPIO_R |= (1u << 5) ; //turn on bit 5 of 0x400FE608 register to wake up GPIO LED clock access 
     SYSCTL_GPIOHBCTL_R |= (1u << 5) ; //convert processing mode to modern version AHB
