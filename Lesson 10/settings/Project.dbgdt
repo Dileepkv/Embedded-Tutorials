@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        <PreferedWindows>
+          
+          
+          
+          
+        <Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1205</ColumnWidth1></Debug-Log>
+      <Build>
+        <PreferedWindows>
+          <Position>3</Position>
+          <ScreenPosX>0</ScreenPosX>
+          <ScreenPosY>0</ScreenPosY>
+          <Windows>
+            <Window>
+              <Factory>Debug-Log</Factory>
+            </Window>
+          </Windows>
+        </PreferedWindows>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>903</ColumnWidth1>
+        <ColumnWidth2>241</ColumnWidth2>
+        <ColumnWidth3>60</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>140</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+      <Memory>
+        <MemGotoHistory><item>0x200007F4</item><item>0x40025000</item><item>0x20000002</item><item>0x20000000</item></MemGotoHistory>
+        
+      <FindAsHex>0</FindAsHex></Memory>
+      <Register>
+        <RegFindHistory/>
+      </Register>
+      <Locals>
+        <col-names>
+          
+          
+          
+          
+        <item>Location</item><item>Type</item><item>Value</item><item>Variable</item></col-names>
+        <col-widths>
+          
+          
+          
+          
+        <item>90</item><item>100</item><item>328</item><item>100</item></col-widths>
+      </Locals>
+    <WATCH_1><expressions><item>counter</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths></WATCH_1><SymbolicMemory><col-names><item>Data</item><item>Location</item><item>Type</item><item>Value</item><item>Variable</item></col-names><col-widths><item>100</item><item>100</item><item>100</item><item>100</item><item>100</item></col-widths><SymMemHistory><item>0x400FE608</item><item>0x400FE000</item></SymMemHistory><zone>Memory</zone></SymbolicMemory></Static>
+    <Windows>
+      
+      
+      
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9515-2104</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Project</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20263-2107</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16604-2176</Identity>
+            <TabName>Memory</TabName>
+            <Factory>Memory</Factory>
+            <Session>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            <ZoneNumber>0</ZoneNumber><SelectionAnchor>536872948</SelectionAnchor><SelectionEnd>536872948</SelectionEnd><UnitsPerGroup>4</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><AutoRefresh>0</AutoRefresh><HScroll>0</HScroll><VScroll>134218234</VScroll></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-24216-2238</Identity>
+            <TabName>Register</TabName>
+            <Factory>Register</Factory>
+            <Session>
+              
+              
+              
+              
+              <State0>APSR</State0>
+            <REG1>0</REG1><REG2>0</REG2><Group>0</Group><States>0</States></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12422-2254</Identity>
+            <TabName>Locals</TabName>
+            <Factory>Locals</Factory>
+          </Tab>
+        <Tab><Identity>TabID-30806-24630</Identity><TabName>Symbolic Memory</TabName><Factory>SymbolicMemory</Factory><Session/></Tab><Tab><Identity>TabID-2762-11032</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>7</YPos2><SelStart2>381</SelStart2><SelEnd2>381</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lm4f120h5qr.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>27</YPos2><SelStart2>1995</SelStart2><SelEnd2>2057</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\delay.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>15</SelStart2><SelEnd2>15</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\delay.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>83</SelStart2><SelEnd2>83</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-010BFBA8><key>iaridepm.enu1</key></Toolbar-010BFBA8></Sizes></Row0><Row1><Sizes><Toolbar-011314B8><key>debuggergui.enu1</key></Toolbar-011314B8></Sizes></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>410</Bottom><Right>214</Right><x>-2</x><y>-2</y><xscreen>216</xscreen><yscreen>209</yscreen><sizeHorzCX>158126</sizeHorzCX><sizeHorzCY>304665</sizeHorzCY><sizeVertCX>158126</sizeVertCX><sizeVertCY>600583</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>410</Bottom><Right>485</Right><x>-2</x><y>-2</y><xscreen>216</xscreen><yscreen>209</yscreen><sizeHorzCX>158126</sizeHorzCX><sizeHorzCY>304665</sizeHorzCY><sizeVertCX>356515</sizeVertCX><sizeVertCY>600583</sizeVertCY></Rect></Wnd1></Sizes></Row0><Row1><Sizes><Wnd3><Rect><Top>-2</Top><Left>483</Left><Bottom>410</Bottom><Right>779</Right><x>483</x><y>-2</y><xscreen>216</xscreen><yscreen>209</yscreen><sizeHorzCX>158126</sizeHorzCX><sizeHorzCY>304665</sizeHorzCY><sizeVertCX>216691</sizeVertCX><sizeVertCY>600583</sizeVertCY></Rect></Wnd3></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>207</Bottom><Right>203</Right><x>-2</x><y>-2</y><xscreen>205</xscreen><yscreen>209</yscreen><sizeHorzCX>150073</sizeHorzCX><sizeHorzCY>304665</sizeHorzCY><sizeVertCX>158126</sizeVertCX><sizeVertCY>304665</sizeVertCY></Rect></Wnd2><Wnd4><Rect><Top>0</Top><Left>0</Left><Bottom>4393</Bottom><Right>1698</Right><x>201</x><y>-2</y><xscreen>1167</xscreen><yscreen>209</yscreen><sizeHorzCX>854319</sizeHorzCX><sizeHorzCY>304665</sizeHorzCY><sizeVertCX>158126</sizeVertCX><sizeVertCY>596210</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
