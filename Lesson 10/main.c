@@ -49,13 +49,10 @@ int main(){
 unsigned fact(unsigned n){
   // 0! = 1
   // n! = n*(n-1)! for all n>0
-  
-  unsigned foo[100]; //this variable it going to overload the stack to learn about it
-  foo[n]=n;
-  
+
   if(n==0u){
       return 1u;
   }else{
-      return (foo[n])*fact(n-1);
+      return n*fact(n-1);
   }
 }

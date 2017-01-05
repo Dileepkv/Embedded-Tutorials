@@ -721,11 +721,11 @@
         </option>
         <option>
           <name>IlinkIcfOverride</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>IlinkIcfFile</name>
-          <state>$TOOLKIT_DIR$\config\linker\TexasInstruments\LM4F120H5QR.icf</state>
+          <state>$PROJ_DIR$\Project.icf</state>
         </option>
         <option>
           <name>IlinkIcfFileSlave</name>
