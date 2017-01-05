@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=692518611
+Checksum=370408448
 [CodeCoverage]
 Enabled=_ 0
 [Stack]
@@ -67,9 +67,6 @@ MultiCoreRunAll=1
 LoggingEnabled=_ 0
 LogFile=_ ""
 Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
 [Disassemble mode]
 mode=0
 [Breakpoints]
@@ -78,3 +75,6 @@ Count=1
 [Aliases]
 Count=0
 SuppressDialog=0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
